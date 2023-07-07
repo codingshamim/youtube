@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+</head>
+<body>
+     <!-- header section start  -->
+     <div class="container">
+        <header>
+            <div class="row res-row justi_between items_center">
+                <div class="menus">
+                    <div class="menu-btn">
+                      <span></span>
+                    </div>
+                  <div class="logo">
+                    <img src="img/logo.png" alt=""> 
+                  </div>
+              
+                    
+                </div>
+                <div class="search-box">
+                    <input type="text" placeholder="Search">
+                    <div class="search-icon">
+                        <ion-icon name="search-outline"></ion-icon>
+                     
+                    </div>
+                  
+                </div>
+                <div class="branding row justi_center items_center">
+                    <div class="icon-col">
+                        <ion-icon class="openOverlay" name="add-circle-outline"></ion-icon>
+                    </div>
+                    <div class="icon-col">
+                        <ion-icon name="notifications-outline"></ion-icon>
+                    </div>
+                    <div class="icon-col">
+                     <img class="user-account" src="img/unnamed.jpg" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+        
+    </div>
+    <!-- header section end  -->
+    <div class="container">
+        <div class="view">
+            <div class="row">
+                <div class="view-video">
+                     <div class="videos">
+                    <video width="800"  controls id="player" playsinline controls data-poster="/path/to/poster.jpg">
+                        <source src="video/yt1s.com - Alo  আল  Tahsan  Album Ecche  Tahsan Art Track  Tahsan Lyrical Video 2019.mp4" type="video/mp4">
+                    
+                    </video>
+                    <h2 class="title">
+                      Alo | আলো | Tahsan | Album Ecche | Tahsan Art Track | Tahsan Lyrical Video 2019
+
+                    </h2>
+                    </div>
+                    
+                      <div class="owner">
+                        <div class="img-owner">
+                            <img src="img/unnamed.jpg" alt="">
+                        </div>
+                        <div class="owner-text">
+                            <div class="texts">
+                                <h2 class="title">Rakib Khan Shamim</h2>
+                                <p class="desc">3k subscribers</p>
+                            </div>
+                          <div class="buttons">
+                              <button class="btn">Subscribe</button>
+                          
+                          </div>
+                          
+                       </div>
+                     
+                      </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- icons start  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- icons end  -->
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+    <script src="path/to/plyr.js"></script>
+<script>
+  const player = new Plyr('#player');
+</script>
+</body>
+</html>
