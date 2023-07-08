@@ -238,7 +238,6 @@ a{
     border-radius: 10px;
     list-style: none;
     padding: 7px;
-   
     cursor: pointer;
 
 }
@@ -391,7 +390,7 @@ video{
 
 .upload-wrapper{
     width: 600px;
-    height: 500px;
+    height: 550px;
     background: #fff;
     padding: 20px;
 }
@@ -480,3 +479,104 @@ textarea{
     margin-left: 10px;
 }
 /* view video area end  */
+
+.owner {
+   width: 100%;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.likes .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.likes .row ion-icon{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.description{
+    width: 800px;
+    background: var(--hover-bg);
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 20px;
+    overflow: auto;
+    padding: 20px;
+}
+
+/* comment box start  */
+.comment-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.comment-box input{
+    width: 90%;
+    padding: 10px;
+    outline: none;
+}
+.comment-box .btn{
+    margin-left: 10px;
+}
+/* comment box end  */
+
+
+.all-comment img{
+    width: 50px;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* thumbnail start  */
+.thumbnail{
+    width: 150px;
+}
+.thumbnail img{
+    width: 100%;
+}
+
+.thumb-text h2{
+    font-size: 18px;
+}
+.thumb-text h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #888686;
+}
+.thumb-text p{
+    font-size: 16px;
+    color: #888686;
+}
+
+.all-videos{
+    padding: 10px;
+}
+.thumb-text{
+    margin: 5px;
+}
+
+.right-vid{
+   display: flex;
+   flex-direction: column;
+    overflow-y: auto;
+}
+.all-videos:nth-child(1){
+    margin-top: 0px;
+}
+/* thumbnail end  */
+
+.errMsg{
+    width: 100%;
+    padding: 10px;
+    background: tomato;
+    color: #fff;
+}
